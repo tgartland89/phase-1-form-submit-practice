@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="src/index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>JS Form Submits</title>
+  </head>
+  <body>
+
+    <h1>All Of The Forms</h1>
+
+    <!-- Profile Section -->
+
+    <div class="form-section pink">
+
+      <h2>Your Profile</h2>
+      <h3 id="profile-name">Profile Name Goes Here</h3>
+      <p id="profile-description">Profile Description Goes Here</p>
+
+      <form id="profile-form">
+        <label for="profile-name-input">Your Profile Name</label>
+        <input id="profile-name-input" type="text" name="profile-name-input">
+
+        <label for="profile-description-input">Your Profile Description</label>
+        <input id="profile-description-input" type="text" name="profile-description-input">
+
+        <input type="submit" value="Submit">
+      </form>
+
+    </div>
+
+    <!-- Activities Section -->
+
+    <div class="form-section yellow">
+
+      <h2>Favorite Activities</h2>
+
+      <div id="activities-container">
+
+        <p>Coding</p>
+
+      </div>
+
+      <form id="activity-form">
+        <label for="activity-input">Add A New Activity</label>
+        <input id="activity-input" type="text" name="activity-input">
+
+        <input type="submit" value="Submit">
+      </form>
+
+    </div>
+
+    <div class="form-section light-blue">
+      <h2>Current Cool Points: <span id="cool-points">1</span></h2>
+    </div>
+
+    <div class="form-section light-blue">
+
+      <h2>Cool Point Adder</h2>
+
+      <form id="cool-points-form">
+        <label for="cool-points-add">Add Cool Points</label>
+        <input type="number" name="cool-points-add" min="0" max="100" value="1">
+
+        <input type="submit" value="Add Points">
+
+      </form>
+
+    </div>
+
+    <div class="form-section light-blue">
+
+      <h2>Cool Point Multiplier</h2>
+
+      <form id="cool-multiplier-form">
+        <label for="cool-points-multiplier">Multiply Cool Points</label>
+        <input type="number" name="cool-points-multiplier" min="1" max="100" value="2">
+
+        <input type="submit" value="Multiply Points">
+
+      </form>
+
+    </div>
+
+    <div class="form-section light-green">
+
+      <h2>Favorite Pictures</h2>
+
+      <div id="pictures-container">
+
+        <img src="https://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Mammals/mammal_raccoon-wisconsin_mary-braatz_600x300.ashx" />
+
+      </div>
+
+      <form id="picture-form">
+        <label for="url">Add A New Pic URL</label>
+        <input type="text" name="url">
+
+        <input type="submit" value="Submit">
+      </form>
+
+    </div>
+
+  </body>
+</html>

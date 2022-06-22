@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+
+#activities-container {
+  background: white;
+  border: solid black 1px;
+  padding: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+#pictures-container img {
+  height: 8em;
+  border: solid black 2px;
+  border-radius: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.form-section {
+  padding: 1em;
+  box-shadow: 0.5em 0.5em grey;
+  /* margin-bottom: 3em; */
+  margin: 1em;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.light-blue {
+  background-color: lightblue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.light-green {
+  background-color: lightgreen;
+}
